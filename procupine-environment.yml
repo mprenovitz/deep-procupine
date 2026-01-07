@@ -1,0 +1,20 @@
+name: procupine
+channels:
+    - defaults
+dependencies:
+    - r-biocmanager
+    - r-soupx
+    - poetry
+    - bioconductor-scdblfinder
+    - muon
+    - bioconductor-singlecellexperiment
+    - bioconductor-scry
+    - bioconductor-scater
+    - rpy2
+    - ipykernel
+    - datasets
+    - python=3.13
+    - bioconductor-s4vectors
+    - pooch
+    - r-base
+    - pytorch

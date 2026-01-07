@@ -1,0 +1,10 @@
+[
+	{
+		"gene": "GET1-SH3BGR",
+		"summary": "This gene is a protein coding. This locus represents naturally occurring readthrough transcription between the neighboring WRB (tryptophan rich basic protein) and SH3BGR (SH3 domain binding glutamate-rich protein) genes on chromosome 21. Readthrough transcripts may encode fusion proteins that shares sequence identity with each individual gene product. Broad expression in heart (RPKM 36.2), testis (RPKM 14.5) and 22 other tissues ."
+	},
+	{
+		"gene": "CD24",
+		"summary": "This gene encodes a sialoglycoprotein that is expressed on mature granulocytes and B cells and modulates growth and differentiation signals to these cells. The precursor protein is cleaved to a short 32 amino acid mature peptide which is anchored via a glycosyl phosphatidylinositol (GPI) link to the cell surface. This gene was missing from previous genome assemblies, but is properly located on chromosome 6. Non-transcribed pseudogenes have been designated on chromosomes 1, 15, 20, and Y. Alternative splicing results in multiple transcript variants. [provided by RefSeq, Apr 2014]"
+	}
+]

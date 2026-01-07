@@ -1,0 +1,6 @@
+name: gene-embedding
+channels:
+    - defaults
+dependencies:
+    - transformers
+    - jupyter
