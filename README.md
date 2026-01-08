@@ -36,7 +36,7 @@
 
 3. The LLM-as-judge approach is used to assess how coherent and biologically accurate described phenotypes are when compared to the ground truth. This approach compares the ProCyon phenotype description with the Procupine equivalent and determines which is "better" compared to the ground truth with ties being possible.
 
-4. To match the benchmarking carried out in ProCyon we used SciBert for the BertScorer, but did not have access to Anthropics Sonnet 3.5 at the time of completion for our LLM-as-judge
+4. To match the benchmarking carried out in ProCyon we used SciBert for the BertScorer, but did not have access to Anthropics Sonnet 3.5 at the time of completion for our LLM-as-judge, so Qwen-2.5 instruct was used as it fit within our computational constraints. 
 
 5. When determining BERTScore and LLM-as-judge results, use the generated phenotype with the highest confidence interval.
 
