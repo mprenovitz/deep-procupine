@@ -28,4 +28,16 @@
 
 6. For given proteins, run QA and score candidate texts by calculating the next-token-probability of "Yes" for our model and ProCyon's model for comparison.
 
-7.  
+# Benchmarking and Evaluation - Matt
+
+1. Takes in generated Protein Phenotypes and Ground truth values to calculate BERTScore, with optional bootstrapped 95 confidence interval, as well as an LLM-as-judge approach for biological relevance of phenotype.
+
+2. BERTScore provides an accurate and flexible semantic similarity score to the ground truth because it takes into acount word context embeddings rather than exact matches to be more robust towards varying descriptions that may capture the same meaning.
+
+3. The LLM-as-judge approach is used to assess how coherent and biologically accurate described phenotypes are when compared to the ground truth. This approach compares the ProCyon phenotype description with the Procupine equivalent and determines which is "better" compared to the ground truth with ties being possible.
+
+4. To match the benchmarking carried out in ProCyon we used SciBert for the BertScorer, but did not have access to Anthropics Sonnet 3.5 at the time of completion for our LLM-as-judge
+
+5. When determining BERTScore and LLM-as-judge results, use the generated phenotype with the highest confidence interval.
+
+6. Note that for comparison between generated phenotypes of a single protein the bootstrapped confidence interval is unecessary and should only be used for large quantities of data for statistical signifigance. 
